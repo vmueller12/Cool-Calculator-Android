@@ -21,14 +21,15 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="567"
+                android:text="0.00"
                 android:id="@+id/textView"
                 android:textSize="45dp"
                 android:layout_gravity="right"
                 android:gravity="right"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:paddingTop="50dp" />
+                android:paddingTop="50dp"
+                android:id="@+id/solutionView"/>
         </LinearLayout>
 
         <LinearLayout
@@ -41,8 +42,8 @@
             <Button
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
-                android:text="8"
-                android:id="@+id/button2"
+                android:text="7"
+                android:id="@+id/sevenBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -51,8 +52,8 @@
             <Button
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
-                android:text="7"
-                android:id="@+id/button"
+                android:text="8"
+                android:id="@+id/eightBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -63,7 +64,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="9"
-                android:id="@+id/button3"
+                android:id="@+id/nineBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -72,7 +73,7 @@
             <ImageButton
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
-                android:id="@+id/imageButton"
+                android:id="@+id/divBtn"
                 android:src="@drawable/divide"
                 android:layout_weight="1"
                 android:background="#ffffff" />
@@ -89,7 +90,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="4"
-                android:id="@+id/button4"
+                android:id="@+id/fourBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -99,7 +100,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="5"
-                android:id="@+id/button5"
+                android:id="@+id/fiveBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -109,7 +110,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="6"
-                android:id="@+id/button6"
+                android:id="@+id/sixBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -118,7 +119,7 @@
             <ImageButton
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
-                android:id="@+id/imageButton2"
+                android:id="@+id/multBtn"
                 android:src="@drawable/multiply"
                 android:layout_weight="1"
                 android:background="#ffffff" />
@@ -134,7 +135,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="1"
-                android:id="@+id/button7"
+                android:id="@+id/onebtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -144,7 +145,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="2"
-                android:id="@+id/button8"
+                android:id="@+id/twoBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -154,7 +155,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="3"
-                android:id="@+id/button9"
+                android:id="@+id/threeBtn"
                 android:layout_weight="1"
                 android:background="#00ffffff"
                 android:textColor="#000000"
@@ -163,7 +164,7 @@
             <ImageButton
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
-                android:id="@+id/imageButton3"
+                android:id="@+id/subtBtn"
                 android:src="@drawable/subtract"
                 android:layout_weight="1"
                 android:background="#ffffff" />
@@ -183,7 +184,7 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:text="Clear"
-                    android:id="@+id/button10"
+                    android:id="@+id/clearBtn"
                     android:textSize="25dp"
                     android:background="#38c5c6"
                     android:paddingLeft="10dp"
@@ -195,7 +196,7 @@
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
                 android:text="0"
-                android:id="@+id/button12"
+                android:id="@+id/zeroBtn"
                 android:background="#00ffffff"
                 android:textColor="#000000"
                 android:textSize="30dp"
@@ -204,7 +205,7 @@
             <ImageButton
                 android:layout_width="95dp"
                 android:layout_height="fill_parent"
-                android:id="@+id/imageButton4"
+                android:id="@+id/addBtn"
                 android:src="@drawable/add"
                 android:background="#ffffff"
                 android:layout_marginLeft="8dp" />
@@ -216,7 +217,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton5"
+        android:id="@+id/calcBtn"
         android:src="@drawable/equal"
         android:background="#00ffffff"
         android:layout_alignParentRight="true"
